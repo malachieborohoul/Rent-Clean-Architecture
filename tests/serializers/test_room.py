@@ -26,4 +26,6 @@ def test_serialize_domain_room():
         }}
     """
 
-    
+    json_room = json.dumps(room,cls=RoomJsonEncoder)
+
+    assert json.loads(json_room)== json.loads(expected_json)
