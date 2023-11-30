@@ -1,13 +1,10 @@
-# Rentomatic
+**Rent: Building a Seamless Room Search Engine**
 
-A demo implementation of a clean architecture in Python.
+Looking for an efficient room rental search engine? Enter Rent! Our project aims to simplify your room-hunting experience by providing a streamlined search process. Each room in our dataset is rich in details, allowing users to apply tailored filters to refine their search criteria. 
 
-The goal of the "Rent-o-Matic" project is to create a simple search engine for a room renting company. Objects in the dataset (rooms) are described by some attributes and the search engine shall allow the user to set some filters to narrow the search. The system exposes a REST API and works with three types of storage system: in-memory database, Postgres, MongoDB.
+This project is the practical embodiment of the concepts discussed in "Clean Architectures in Python" by Leonardo Giordani. It's designed to showcase the power of clean architecture principles applied to a room rental platform. 
 
-This is a companion repository for the book "Clean Architectures in Python" by Leonardo Giordani, published by Leanpub.
+Whether you prefer an in-memory database, Postgres, or MongoDB, Rent's REST API seamlessly integrates with these storage systems. 
 
-You can download the book [here](https://leanpub.com/clean-architectures-in-python).
 
-The repository contains the **code for the second edition** of the book. If for some reasons you are still following the first edition you can find the code in the branch `first-edition`. The tags mentioned in the first edition still exists in that branch.
-
-# Rent-Clean-Architecture
+Welcome to Rent - where your ideal room search begins effortlessly!
