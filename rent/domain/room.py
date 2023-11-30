@@ -1,7 +1,7 @@
 import uuid
 import dataclasses
 
-@dataclasses
+@dataclasses.dataclass
 class Room:
     code = uuid.UUID
     size= int
