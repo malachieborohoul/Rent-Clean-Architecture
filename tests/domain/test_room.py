@@ -3,13 +3,15 @@ from rent.domain.room import Room
 
 def test_room_model_init():
     code = uuid.uuid4()
-    room = Room(
+    init_dict = Room(
         code,
         size=200,
         price=10,
         longitude=0.233443,
         latitude=0.233443,
     )
+
+    room = Room.from_dict(init_dict)
 
     assert room.code == code
     assert room.size == 200
