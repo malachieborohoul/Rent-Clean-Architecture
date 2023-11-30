@@ -13,6 +13,8 @@ def test_room_model_init():
 
     room = Room.from_dict(init_dict)
 
+    assert room.to_dict()==init_dict
+
     assert room.code == code
     assert room.size == 200
     assert room.price == 10
