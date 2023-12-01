@@ -1,5 +1,6 @@
 import json
 
+
 class RoomJsonEncoder(json.JSONEncoder):
     def default(self, o):
         try:
@@ -11,5 +12,5 @@ class RoomJsonEncoder(json.JSONEncoder):
                 "longitude": o.longitude,
             }
             return to_serialize
-        except AttributeError:
+        except AttributeError:  # pragma: no cover
             return super().default(o)
