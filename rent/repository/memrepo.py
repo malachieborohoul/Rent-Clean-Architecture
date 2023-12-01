@@ -5,4 +5,4 @@ class MemRepo:
         self.data= data
 
     def list(self):
-        return [Room.form_dict(i) for i in self.data]
+        return [Room.from_dict(i) for i in self.data]

@@ -1,8 +1,7 @@
 import json
-from typing import Any
 
 class RoomJsonEncoder(json.JSONEncoder):
-    def default(self, o: Any) -> Any:
+    def default(self, o):
         try:
             to_serialize = {
                 "code": str(o.code),
